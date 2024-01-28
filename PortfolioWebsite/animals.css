@@ -1,0 +1,44 @@
+.homeContainer{
+    background-image: none;
+    height: 100%;
+}
+
+.imgAnmial{
+    width: 40%;
+    border-radius: 100%;
+}
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.animalCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin: 4em 0 4em 2em;
+    max-width: 80vh;
+    object-fit: cover;
+}
+
+.cardHeader{
+    color: #fff;
+    overflow-wrap: break-word;
+    min-width: 0;
+}
+
+.cardText{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-left: 2em;
+}
+
+.cardText > p{
+    margin: 0;
+}
+

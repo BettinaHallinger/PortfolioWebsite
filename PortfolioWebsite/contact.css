@@ -1,0 +1,38 @@
+.homeContainer{
+    background-image: none;
+    background-color: #111;
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 4em 0 4em 0;
+}
+
+
+.data{
+    color: #fff;
+    text-align: center;
+    margin-right: 2em;
+}
+
+img{
+    width: 30%;
+}
+
+@media  screen and (max-width: 800px) {
+    .container{
+        flex-direction: column;
+    }
+
+    img{
+        width: 60%;
+        margin-top: 2em;
+    }
+    .data{
+        margin-right: 0;
+    }
+}

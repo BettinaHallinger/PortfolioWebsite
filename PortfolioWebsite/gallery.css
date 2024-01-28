@@ -1,0 +1,23 @@
+.homeContainer{
+    background-image: none;
+    background-color: #111;
+    height: 100%;
+}
+
+.imgGallery{
+    width: 70%;
+    padding: 3vh 0 3vh 0;  
+}
+
+
+.images{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media  screen and (max-width: 800px) {
+    .imgGallery{
+        width: 90%;
+    }
+}
